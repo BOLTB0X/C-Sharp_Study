@@ -8,4 +8,4 @@
 
 ## 참고
 
-[공식 가이드](https://learn.microsoft.com/ko-kr/dotnet/csharp/programming-guide/)
+[공식 가이드 문서](https://learn.microsoft.com/ko-kr/dotnet/csharp/programming-guide/)
