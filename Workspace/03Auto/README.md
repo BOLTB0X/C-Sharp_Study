@@ -1,9 +1,8 @@
 # Auto(Var)
 
 > Implicit typed local variable (암시적 타입 지역변수)
-> <br/>
-> user에 의해 로컬변수의 타입이 정해지는 것이 아니라 컴파일러에 의해서 타입이 정해지는 것
-> <br/>
+
+user에 의해 로컬변수의 타입이 정해지는 것이 아니라 컴파일러에 의해서 타입이 정해지는 것
 
 ## Var
 
@@ -11,9 +10,8 @@
 
 2. 함수 정의시 사용 불가
 
-3. single variable만 정의 가능, ex) var i, j, k : X
+3. single variable만 정의 가능, ex) `var i, j, k` : X
 
-<br/>
 
 ```cs
 static void Main(string[] args)
@@ -23,7 +21,6 @@ static void Main(string[] args)
 ```
 
 암시적으로 형식화된 로컬변수는 초기화가 필요
-<br/>
 
 ```cs
 static void Main(string[] args)
@@ -35,13 +32,10 @@ static void Main(string[] args)
 ```
 
 대입되는 값의 타입에 따라 변수의 타입은 암시적으로 정해짐
-<br/>
 
 이후에 그 변수는 다른 타입의 값을 대입하게된다면 오류가 발생
-<br/>
 
-**cf. 변수의 타입이 궁금하다면**
-<br/>
+#### **cf. 변수의 타입이 궁금하다면**
 
 ```cs
 var fullName = name + " lee"; // C++의 Auto와 같은 용도
@@ -55,7 +49,6 @@ Console.WriteLine(number.GetType()); // System.Int32
 ```
 
 GetType메소드 이용
-<br/>
 
 ## for, foreach
 
